@@ -1,0 +1,13 @@
+local NPC = game.Workspace.Monster
+while true do
+  wait(0.5)
+  NPC.Humanoid:MoveTo(game.Workspace.Point1.Position)
+  NPC.Humanoid.MoveToFinished:Wait()
+  wait(0.5)
+  NPC.Humanoid:MoveTo(game.Workspace.Point2.Position)
+  NPC.Humanoid.MoveToFinished:Wait()
+  wait(0.5)
+  NPC.Humanoid:MoveTo(game.Workspace.Point3.Position)
+  NPC.Humanoid.MoveToFinished:Wait()
+  wait(0.5)
+  
